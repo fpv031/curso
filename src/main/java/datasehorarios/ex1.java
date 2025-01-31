@@ -7,7 +7,7 @@ public class ex1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite a hora (0-23): ");
-        int hora = scanner.nextInt();
+        int hora = sc.nextInt();
         System.out.print("Digite os minutos (0-59): ");
         int minutos = sc.nextInt();
 

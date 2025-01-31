@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ex1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner()r(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o primeiro número: ");
         int num1 = sc.nextInt();
