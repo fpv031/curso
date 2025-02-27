@@ -2,7 +2,7 @@ package exercicioscomobjeto;
 
 import java.util.Scanner;
 
-public class ex2basico {
+public class ex2obj {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

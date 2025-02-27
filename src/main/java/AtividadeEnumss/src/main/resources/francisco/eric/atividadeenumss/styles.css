@@ -1,0 +1,33 @@
+/* Define o fundo da interface */
+.root {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Estiliza o botão */
+.button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* Estiliza o botão quando passa o mouse */
+.button:hover {
+    -fx-background-color: #005fa3;
+}
+
+/* Estiliza os campos de texto */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-border-color: #bbb;
+    -fx-border-radius: 5px;
+}
+
+/* Estiliza as labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.171"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="francisco.eric.atividadeenumss.HelloController">
+
+    <Label text="Código do Pedido:"/>
+    <TextField fx:id="codigoPedidoField"/>
+    <Button text="Buscar Pedido" onAction="#onBuscarPedido"/>
+
+</VBox>
