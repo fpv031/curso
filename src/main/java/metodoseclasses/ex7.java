@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public static void main(String[] args) {
+public static void ex7 (String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter three numbers:");
 
@@ -15,7 +15,7 @@ public static void main(String[] args) {
 }
 
 // Função para encontrar o maior número
-public static int findHigher(int a, int b, int c) {
+public static int findHigher (int a, int b, int c) {
     if (a > b && a > c) {
         return a;
     } else if (b > c) {
@@ -23,4 +23,7 @@ public static int findHigher(int a, int b, int c) {
     } else {
         return c;
     }
+}
+
+public void main() {
 }
