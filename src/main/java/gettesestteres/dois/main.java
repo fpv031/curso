@@ -1,5 +1,7 @@
 package gettesestteres.dois;
 
+import gettesestteres.dois.models.ContaBancaria;
+
 import java.util.Scanner;
 
 public class main {

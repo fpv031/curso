@@ -1,5 +1,7 @@
 package gettesestteres.um;
 
+import gettesestteres.um.models.Pessoa;
+
 import java.util.Scanner;
 
 public class main {

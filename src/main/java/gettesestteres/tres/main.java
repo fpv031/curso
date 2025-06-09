@@ -1,5 +1,7 @@
 package gettesestteres.tres;
 
+import gettesestteres.tres.models.Produto;
+
 import java.util.Scanner;
 
 public class main {
